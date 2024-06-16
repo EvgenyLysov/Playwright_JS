@@ -24,7 +24,8 @@ This was not enough to use my container with the mysql2 library, so I created a 
 4. use Playwright-specific locators
 5. Do CI-agnostic reporting using ReportPortal
 6. Cover the test cases described below
-7. Add suits for tests 
+7. Add suits for tests
+8. Move all credentials to env variables
 
 
 **Possible Tests**
