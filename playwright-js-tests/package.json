@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "mysql2": "^3.10.1",
+    "playwright": "^1.44.1"
+  },
+  "name": "playwright-js-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --headed --workers=1 --project=chromium",
+    "show-report": "npx playwright show-report"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.2"
+  }
+}
