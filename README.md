@@ -26,6 +26,7 @@ This was not enough to use my container with the mysql2 library, so I created a 
 6. Cover the test cases described below
 7. Add suits for tests
 8. Move all credentials to env variables
+9. Add test execution docker container
 
 
 **Possible Tests**
